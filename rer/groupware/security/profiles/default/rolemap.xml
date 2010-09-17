@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rolemap>
+  <permissions>
+  	<permission name="ATContentTypes: Add Folder"
+                acquire="False">
+      <role name="EditorAdv"/>
+	  <role name="Manager"/>
+    </permission>
+	<permission name="Portlet Page: Add Portlet Page"
+                acquire="False">
+      <role name="EditorAdv"/>
+	  <role name="Manager"/>
+    </permission>
+  </permissions>
+</rolemap>
