@@ -11,5 +11,9 @@
       <role name="EditorAdv"/>
 	  <role name="Manager"/>
     </permission>
+	<permission name="collective.filteredlocking: Can unlock objects"
+                acquire="True">
+      <role name="EditorAdv"/>
+    </permission>
   </permissions>
 </rolemap>
