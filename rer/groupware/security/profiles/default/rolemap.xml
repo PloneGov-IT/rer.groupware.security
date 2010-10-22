@@ -15,5 +15,9 @@
                 acquire="True">
       <role name="EditorAdv"/>
     </permission>
+	<permission name="Modify constrain types"
+                acquire="False">
+      <role name="Manager"/>
+    </permission>
   </permissions>
 </rolemap>
