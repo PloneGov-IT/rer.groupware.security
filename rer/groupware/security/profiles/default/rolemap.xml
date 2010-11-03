@@ -19,11 +19,96 @@
                 acquire="False">
       <role name="Manager"/>
     </permission>
+	
+	<!--modifica per xm e per permettere agli owner di ritirare le pubblicazioni-->
 	<permission name="Review portal content"
                 acquire="True">
       <role name="Manager"/>
 	  <role name="Owner"/>
 	  <role name="Reviewer"/>
+      <role name="Projectmanager"/>
+    </permission>
+	
+	<!-- ripristino delle configurazioni iniziali di Plone, perchè xm va a sovrascriverle -->
+    <permission name="Add portal content"
+                acquire="True">
+	  <role name="Contributor"/>
+      <role name="Manager"/>
+	  <role name="Owner"/>
+	  <role name="Projectmanager"/>
+      <role name="Employee"/>
+      <role name="Customer"/>
+    </permission>
+    <permission name="Access contents information"
+                acquire="True">
+	  <role name="Contributor"/>
+	  <role name="Editor"/>
+	  <role name="Reader"/>                	
+      <role name="Projectmanager"/>
+      <role name="Employee"/>
+      <role name="Customer"/>
+    </permission>
+    <permission name="Add portal folders"
+                acquire="True">
+      <role name="Contributor"/>
+	  <role name="Manager"/>
+	  <role name="Owner"/>
+      <role name="Projectmanager"/>
+      <role name="Employee"/>
+    </permission>
+    <permission name="List folder contents"
+                acquire="True">
+      <role name="Contributor"/>
+	  <role name="Editor"/>
+	  <role name="Manager"/>
+	  <role name="Memberr"/>
+	  <role name="Owner"/>
+	  <role name="Reader"/>
+      <role name="Projectmanager"/>
+      <role name="Employee"/>
+      <role name="Customer"/>
+    </permission>
+    <permission name="View"
+                acquire="True">
+      <role name="Contributor"/>
+	  <role name="Editor"/>
+	  <role name="Reader"/>
+      <role name="Projectmanager"/>
+      <role name="Employee"/>
+      <role name="Customer"/>
+    </permission>
+    <permission name="Delete objects"
+                acquire="True">
+	  <role name="Editor"/>
+	  <role name="Manager"/>
+      <role name="Owner"/>
+      <role name="Projectmanager"/>
+      <role name="Employee"/>
+    </permission>
+    <permission name="Manage properties"
+                acquire="True">
+      <role name="Editor"/>
+	  <role name="Manager"/>
+      <role name="Owner"/>
+	  <role name="Projectmanager"/>
+      <role name="Employee"/>
+    </permission>
+    <permission name="Modify portal content"
+                acquire="True">
+      <role name="Editor"/>
+      <role name="Owner"/>
+      <role name="Projectmanager"/>
+      <role name="Employee"/>
+      <role name="Customer"/>
+    </permission>
+    <permission name="Request review"
+                acquire="True">
+      <role name="Editor"/>
+	  <role name="Manager"/>
+      <role name="Owner"/>
+	  <role name="Projectmanager"/>
+      <role name="Employee"/>
+      <role name="Customer"/>
     </permission>
   </permissions>
 </rolemap>
