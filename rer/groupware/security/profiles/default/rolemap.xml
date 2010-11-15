@@ -31,7 +31,7 @@
 	
 	<!-- ripristino delle configurazioni iniziali di Plone, perchè xm va a sovrascriverle -->
     <permission name="Add portal content"
-                acquire="True">
+	            acquire="True">
 	  <role name="Contributor"/>
       <role name="Manager"/>
 	  <role name="Owner"/>
