@@ -20,6 +20,19 @@
       <role name="Manager"/>
     </permission>
 	
+	<permission name="Popoll: Vote"
+                acquire="True">
+      <role name="Manager"/>
+      <role name="Owner"/>
+      <role name="Contributor"/>
+    </permission>
+	
+	<permission name="Reply to item"
+                acquire="True">
+      <role name="Manager"/>
+      <role name="Contributor"/>
+    </permission>
+	
 	<!--modifica per xm e per permettere agli owner di ritirare le pubblicazioni-->
 	<permission name="Review portal content"
                 acquire="True">
