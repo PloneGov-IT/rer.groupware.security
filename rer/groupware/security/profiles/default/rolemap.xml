@@ -24,18 +24,21 @@
                 acquire="True">
       <role name="Manager"/>
       <role name="Owner"/>
+	  <role name="LocalManager"/>
       <role name="Contributor"/>
     </permission>
 	
 	<permission name="Reply to item"
                 acquire="True">
       <role name="Manager"/>
+	  <role name="LocalManager"/>
       <role name="Contributor"/>
     </permission>
 	
 	<permission name="Ploneboard: Add Comment"
                 acquire="False">
       <role name="Manager"/>
+	  <role name="LocalManager"/>
       <role name="Reviewer"/>
       <role name="Contributor"/>
     </permission>
@@ -43,6 +46,7 @@
 	<permission name="Ploneboard: Add Comment Attachment"
                 acquire="False">
       <role name="Manager"/>
+	  <role name="LocalManager"/>
       <role name="Reviewer"/>
       <role name="Contributor"/>
     </permission>
@@ -50,6 +54,7 @@
 	<permission name="Ploneboard: Add Conversation"
                 acquire="False">
       <role name="Manager"/>
+	  <role name="LocalManager"/>
       <role name="Reviewer"/>
       <role name="Contributor"/>
     </permission>
@@ -60,6 +65,13 @@
       <role name="Manager"/>
 	  <role name="Owner"/>
 	  <role name="Reviewer"/>
+      <role name="Projectmanager"/>
+    </permission>
+	
+	<permission name="eXtremeManagement: Add Iteration"
+                acquire="True">
+      <role name="Manager"/>
+	  <role name="Employee"/>
       <role name="Projectmanager"/>
     </permission>
 	
@@ -140,6 +152,7 @@
       <role name="Editor"/>
 	  <role name="Manager"/>
       <role name="Owner"/>
+	  <role name="LocalManager"/>
 	  <role name="Projectmanager"/>
       <role name="Employee"/>
       <role name="Customer"/>
