@@ -75,6 +75,13 @@
       <role name="Projectmanager"/>
     </permission>
 	
+	<permission name="eXtremeManagement: Add Project"
+                acquire="True">
+      <role name="Manager"/>
+      <role name="Employee"/>
+      <role name="Projectmanager"/>
+    </permission>
+	
 	<!-- ripristino delle configurazioni iniziali di Plone, perchè xm va a sovrascriverle -->
     <permission name="Add portal content"
 	            acquire="True">
