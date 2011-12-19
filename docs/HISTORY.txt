@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.1 (2011-07-??)
+1.0.1 (2011-12-19)
 ------------------
 
 * added employee role to eXtremeManagement: Add Project [andrea]
