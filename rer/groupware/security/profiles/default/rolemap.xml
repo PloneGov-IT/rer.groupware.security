@@ -59,6 +59,27 @@
       <role name="Contributor"/>
     </permission>
 	
+	<permission name="Ploneboard: Moderate Forum"
+                acquire="False">
+      <role name="Manager"/>
+	  <role name="LocalManager"/>
+	  <role name="EditorAdv"/>
+    </permission>	
+	
+	<permission name="Ploneboard: Manage Comment"
+                acquire="False">
+      <role name="Manager"/>
+	  <role name="LocalManager"/>
+	  <role name="EditorAdv"/>
+    </permission>
+	
+	<permission name="Ploneboard: Manage Conversation"
+                acquire="False">
+      <role name="Manager"/>
+	  <role name="LocalManager"/>
+	  <role name="EditorAdv"/>
+    </permission>	
+	
 	<!--modifica per xm e per permettere agli owner di ritirare le pubblicazioni-->
 	<permission name="Review portal content"
                 acquire="True">
