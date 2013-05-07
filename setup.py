@@ -27,6 +27,7 @@ setup(name='rer.groupware.security',
           'rer.localmanager',
           'rer.editoradv',
           'redturtle.deletepolicy',
+          'collective.filteredlocking',
       ],
       entry_points="""
       # -*- Entry points: -*-
