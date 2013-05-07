@@ -1,4 +1,9 @@
 <?xml version="1.0"?>
 <metadata>
-  <version>1.0.2</version>
+  <version>1000</version>
+  <dependencies>
+        <dependency>profile-rer.localmanager:default</dependency>
+		<dependency>profile-rer.editoradv:default</dependency>
+		<dependency>profile-redturtle.deletepolicy:default</dependency>
+  </dependencies>
 </metadata>

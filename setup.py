@@ -24,9 +24,13 @@ setup(name='rer.groupware.security',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          # -*- Extra requirements: -*-
+          'rer.localmanager',
+          'rer.editoradv',
+          'redturtle.deletepolicy',
       ],
       entry_points="""
       # -*- Entry points: -*-
+      [z3c.autoinclude.plugin]
+      target = plone
       """,
       )
