@@ -1,6 +1,13 @@
 Changelog
 =========
 
+2.0.0 (Unreleased)
+------------------
+
+Upgrade to Plone 4
+
+- Dependency on ``collective.filteredlocking`` [keul]
+
 1.0.2 (2012-02-06)
 ------------------
 
