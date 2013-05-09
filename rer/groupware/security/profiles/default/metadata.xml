@@ -2,8 +2,6 @@
 <metadata>
   <version>1000</version>
   <dependencies>
-        <dependency>profile-rer.localmanager:default</dependency>
-		<dependency>profile-rer.editoradv:default</dependency>
 		<dependency>profile-redturtle.deletepolicy:default</dependency>
 		<dependency>profile-collective.filteredlocking:default</dependency>
   </dependencies>

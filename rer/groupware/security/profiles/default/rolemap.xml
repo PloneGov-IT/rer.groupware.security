@@ -6,15 +6,32 @@
       <role name="EditorAdv"/>
 	  <role name="Manager"/>
     </permission>
+
+  	<permission name="Add portal topics"
+                acquire="False">
+      <role name="EditorAdv"/>
+	  <role name="Manager"/>
+	  <role name="Site Administrator"/>
+    </permission>
+
+	<permission name="Change portal topics"
+                acquire="False">
+      <role name="EditorAdv"/>
+	  <role name="Manager"/>
+	  <role name="Site Administrator"/>
+    </permission>
+
 	<permission name="Portlet Page: Add Portlet Page"
                 acquire="False">
       <role name="EditorAdv"/>
 	  <role name="Manager"/>
     </permission>
+
 	<permission name="collective.filteredlocking: Can unlock objects"
                 acquire="True">
       <role name="EditorAdv"/>
     </permission>
+
 	<permission name="Modify constrain types"
                 acquire="False">
       <role name="Manager"/>
@@ -86,6 +103,49 @@
       <role name="Manager"/>
 	  <role name="Owner"/>
 	  <role name="Reviewer"/>
+    </permission>
+
+    <!-- sharing -->
+	<permission name="Sharing page: Delegate roles"
+                acquire="False">
+      <role name="LocalManager"/>
+	  <role name="Manager"/>
+	  <role name="Site Administrator"/>
+    </permission>
+	<permission name="Sharing page: Delegate EditorAdv role"
+                acquire="False">
+      <role name="LocalManager"/>
+      <role name="Manager"/>
+	  <role name="Site Administrator"/>
+    </permission>
+	<permission name="Sharing page: Delegate LocalManager role"
+                acquire="False">
+	  <role name="Manager"/>
+	  <role name="Site Administrator"/>
+    </permission>
+	<permission name="Sharing page: Delegate Contributor role"
+                acquire="False">
+	  <role name="Manager"/>
+	  <role name="LocalManager"/>
+	  <role name="Site Administrator"/>
+    </permission>
+	<permission name="Sharing page: Delegate Editor role"
+                acquire="False">
+	  <role name="Manager"/>
+	  <role name="LocalManager"/>
+	  <role name="Site Administrator"/>
+    </permission>
+	<permission name="Sharing page: Delegate Reader role"
+                acquire="False">
+	  <role name="Manager"/>
+	  <role name="LocalManager"/>
+	  <role name="Site Administrator"/>
+    </permission>	
+	<permission name="Sharing page: Delegate Reviewer role"
+                acquire="False">
+	  <role name="Manager"/>
+	  <role name="LocalManager"/>
+	  <role name="Site Administrator"/>
     </permission>
 
   </permissions>

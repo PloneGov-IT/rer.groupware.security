@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<sharing xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+  <role
+      id="LocalManager"
+      title="Manager locale"
+      permission="Sharing page: Delegate LocalManager role"
+      />
+  <role
+      id="EditorAdv"
+      title="Puo' modificare (avanzato)"
+      permission="Sharing page: Delegate EditorAdv role"
+      />
+</sharing>
