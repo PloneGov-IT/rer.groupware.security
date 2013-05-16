@@ -40,6 +40,7 @@
 	<permission name="Popoll: Vote"
                 acquire="True">
       <role name="Manager"/>
+      <role name="Member"/>
       <role name="Owner"/>
 	  <role name="LocalManager"/>
       <role name="Contributor"/>
