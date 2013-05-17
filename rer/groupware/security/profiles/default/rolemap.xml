@@ -5,6 +5,7 @@
                 acquire="False">
       <role name="EditorAdv"/>
 	  <role name="Manager"/>
+	  <role name="Site Administrator"/>
     </permission>
 
   	<permission name="Add portal topics"
