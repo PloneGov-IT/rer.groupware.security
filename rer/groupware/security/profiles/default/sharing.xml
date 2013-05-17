@@ -1,13 +1,22 @@
 <?xml version="1.0"?>
-<sharing xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+<sharing xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+         i18n:domain="plone">
   <role
       id="LocalManager"
-      title="Manager locale"
+      title="Can manage"
       permission="Sharing page: Delegate LocalManager role"
+	  i18n:attributes="title"
       />
   <role
       id="EditorAdv"
-      title="Puo' modificare (avanzato)"
+      title="Can edit (advanced)"
       permission="Sharing page: Delegate EditorAdv role"
+	  i18n:attributes="title"
+      />
+  <role
+      id="Active User"
+      title="Can partake"
+      permission="Sharing page: Delegate Active User role"
+	  i18n:attributes="title"
       />
 </sharing>

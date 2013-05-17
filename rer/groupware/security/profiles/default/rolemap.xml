@@ -25,61 +25,68 @@
                 acquire="False">
       <role name="EditorAdv"/>
 	  <role name="Manager"/>
+	  <role name="Site Administrator"/>
     </permission>
 
 	<permission name="collective.filteredlocking: Can unlock objects"
                 acquire="True">
       <role name="EditorAdv"/>
+	  <role name="Site Administrator"/>
     </permission>
 
 	<permission name="Modify constrain types"
                 acquire="False">
       <role name="Manager"/>
+	  <role name="Site Administrator"/>
     </permission>
 	
 	<permission name="Popoll: Vote"
                 acquire="True">
       <role name="Manager"/>
-      <role name="Member"/>
-      <role name="Owner"/>
+	  <role name="Site Administrator"/>
+      <role name="Active User"/>
 	  <role name="LocalManager"/>
-      <role name="Contributor"/>
     </permission>
 	
 	<permission name="Reply to item"
                 acquire="True">
       <role name="Manager"/>
+	  <role name="Site Administrator"/>
 	  <role name="LocalManager"/>
-      <role name="Contributor"/>
+      <role name="Active User"/>
     </permission>
 	
 	<permission name="Ploneboard: Add Comment"
                 acquire="False">
       <role name="Manager"/>
+	  <role name="Site Administrator"/>
 	  <role name="LocalManager"/>
       <role name="Reviewer"/>
-      <role name="Contributor"/>
+      <role name="Active User"/>
     </permission>
 	
 	<permission name="Ploneboard: Add Comment Attachment"
                 acquire="False">
       <role name="Manager"/>
+	  <role name="Site Administrator"/>
 	  <role name="LocalManager"/>
       <role name="Reviewer"/>
-      <role name="Contributor"/>
+      <role name="Active User"/>
     </permission>
 	
 	<permission name="Ploneboard: Add Conversation"
                 acquire="False">
       <role name="Manager"/>
+	  <role name="Site Administrator"/>
 	  <role name="LocalManager"/>
       <role name="Reviewer"/>
-      <role name="Contributor"/>
+      <role name="Active User" />
     </permission>
 	
 	<permission name="Ploneboard: Moderate Forum"
                 acquire="False">
       <role name="Manager"/>
+	  <role name="Site Administrator"/>
 	  <role name="LocalManager"/>
 	  <role name="EditorAdv"/>
     </permission>	
@@ -87,6 +94,7 @@
 	<permission name="Ploneboard: Manage Comment"
                 acquire="False">
       <role name="Manager"/>
+	  <role name="Site Administrator"/>
 	  <role name="LocalManager"/>
 	  <role name="EditorAdv"/>
     </permission>
@@ -94,6 +102,7 @@
 	<permission name="Ploneboard: Manage Conversation"
                 acquire="False">
       <role name="Manager"/>
+	  <role name="Site Administrator"/>
 	  <role name="LocalManager"/>
 	  <role name="EditorAdv"/>
     </permission>	
@@ -102,6 +111,7 @@
 	<permission name="Review portal content"
                 acquire="True">
       <role name="Manager"/>
+	  <role name="Site Administrator"/>
 	  <role name="Owner"/>
 	  <role name="Reviewer"/>
     </permission>
@@ -148,6 +158,10 @@
 	  <role name="LocalManager"/>
 	  <role name="Site Administrator"/>
     </permission>
-
+	<permission name="Sharing page: Delegate Active User role"
+                acquire="False">
+	  <role name="Manager"/>
+	  <role name="Site Administrator"/>
+    </permission>
   </permissions>
 </rolemap>
