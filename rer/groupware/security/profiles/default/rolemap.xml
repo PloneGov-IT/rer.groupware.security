@@ -42,7 +42,7 @@
     </permission>
 	
 	<permission name="Popoll: Vote"
-                acquire="True">
+                acquire="False">
       <role name="Manager"/>
 	  <role name="Site Administrator"/>
       <role name="Active User"/>
