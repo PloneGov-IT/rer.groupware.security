@@ -1,168 +1,168 @@
 <?xml version="1.0"?>
 <rolemap>
   <permissions>
-  	<permission name="ATContentTypes: Add Folder"
+      <permission name="ATContentTypes: Add Folder"
                 acquire="False">
       <role name="EditorAdv"/>
-	  <role name="Manager"/>
-	  <role name="Site Administrator"/>
+      <role name="Manager"/>
+      <role name="Site Administrator"/>
     </permission>
 
-  	<permission name="Add portal topics"
+      <permission name="Add portal topics"
                 acquire="False">
       <role name="EditorAdv"/>
-	  <role name="Manager"/>
-	  <role name="Site Administrator"/>
+      <role name="Manager"/>
+      <role name="Site Administrator"/>
     </permission>
 
-	<permission name="Change portal topics"
+    <permission name="Change portal topics"
                 acquire="False">
       <role name="EditorAdv"/>
-	  <role name="Manager"/>
-	  <role name="Site Administrator"/>
+      <role name="Manager"/>
+      <role name="Site Administrator"/>
     </permission>
 
-	<permission name="Portlet Page: Add Portlet Page"
+    <permission name="Portlet Page: Add Portlet Page"
                 acquire="False">
       <role name="EditorAdv"/>
-	  <role name="Manager"/>
-	  <role name="Site Administrator"/>
+      <role name="Manager"/>
+      <role name="Site Administrator"/>
     </permission>
 
-	<permission name="collective.filteredlocking: Can unlock objects"
+    <permission name="collective.filteredlocking: Can unlock objects"
                 acquire="True">
       <role name="EditorAdv"/>
-	  <role name="Site Administrator"/>
+      <role name="Site Administrator"/>
     </permission>
 
-	<permission name="Modify constrain types"
+    <permission name="Modify constrain types"
                 acquire="False">
       <role name="Manager"/>
-	  <role name="Site Administrator"/>
+      <role name="Site Administrator"/>
     </permission>
-	
-	<permission name="Popoll: Vote"
+    
+    <permission name="Popoll: Vote"
                 acquire="False">
       <role name="Manager"/>
-	  <role name="Site Administrator"/>
+      <role name="Site Administrator"/>
       <role name="Active User"/>
-	  <role name="LocalManager"/>
+      <role name="LocalManager"/>
     </permission>
-	
-	<permission name="Reply to item"
+    
+    <permission name="Reply to item"
                 acquire="True">
       <role name="Manager"/>
-	  <role name="Site Administrator"/>
-	  <role name="LocalManager"/>
+      <role name="Site Administrator"/>
+      <role name="LocalManager"/>
       <role name="Active User"/>
     </permission>
-	
-	<permission name="Ploneboard: Add Comment"
+    
+    <permission name="Ploneboard: Add Comment"
                 acquire="False">
       <role name="Manager"/>
-	  <role name="Site Administrator"/>
-	  <role name="LocalManager"/>
+      <role name="Site Administrator"/>
+      <role name="LocalManager"/>
       <role name="Reviewer"/>
       <role name="Active User"/>
     </permission>
-	
-	<permission name="Ploneboard: Add Comment Attachment"
+    
+    <permission name="Ploneboard: Add Comment Attachment"
                 acquire="False">
       <role name="Manager"/>
-	  <role name="Site Administrator"/>
-	  <role name="LocalManager"/>
+      <role name="Site Administrator"/>
+      <role name="LocalManager"/>
       <role name="Reviewer"/>
       <role name="Active User"/>
     </permission>
-	
-	<permission name="Ploneboard: Add Conversation"
+    
+    <permission name="Ploneboard: Add Conversation"
                 acquire="False">
       <role name="Manager"/>
-	  <role name="Site Administrator"/>
-	  <role name="LocalManager"/>
+      <role name="Site Administrator"/>
+      <role name="LocalManager"/>
       <role name="Reviewer"/>
       <role name="Active User" />
     </permission>
-	
-	<permission name="Ploneboard: Moderate Forum"
+    
+    <permission name="Ploneboard: Moderate Forum"
                 acquire="False">
       <role name="Manager"/>
-	  <role name="Site Administrator"/>
-	  <role name="LocalManager"/>
-	  <role name="EditorAdv"/>
-    </permission>	
-	
-	<permission name="Ploneboard: Manage Comment"
+      <role name="Site Administrator"/>
+      <role name="LocalManager"/>
+      <role name="EditorAdv"/>
+    </permission>    
+    
+    <permission name="Ploneboard: Manage Comment"
                 acquire="False">
       <role name="Manager"/>
-	  <role name="Site Administrator"/>
-	  <role name="LocalManager"/>
-	  <role name="EditorAdv"/>
+      <role name="Site Administrator"/>
+      <role name="LocalManager"/>
+      <role name="EditorAdv"/>
     </permission>
-	
-	<permission name="Ploneboard: Manage Conversation"
+    
+    <permission name="Ploneboard: Manage Conversation"
                 acquire="False">
       <role name="Manager"/>
-	  <role name="Site Administrator"/>
-	  <role name="LocalManager"/>
-	  <role name="EditorAdv"/>
-    </permission>	
-	
-	<!--modifica per permettere agli owner di ritirare le pubblicazioni-->
-	<permission name="Review portal content"
+      <role name="Site Administrator"/>
+      <role name="LocalManager"/>
+      <role name="EditorAdv"/>
+    </permission>    
+    
+    <!--modifica per permettere agli owner di ritirare le pubblicazioni-->
+    <permission name="Review portal content"
                 acquire="True">
       <role name="Manager"/>
-	  <role name="Site Administrator"/>
-	  <role name="Owner"/>
-	  <role name="Reviewer"/>
+      <role name="Site Administrator"/>
+      <role name="Owner"/>
+      <role name="Reviewer"/>
     </permission>
 
     <!-- sharing -->
-	<permission name="Sharing page: Delegate roles"
-                acquire="False">
-      <role name="LocalManager"/>
-	  <role name="Manager"/>
-	  <role name="Site Administrator"/>
-    </permission>
-	<permission name="Sharing page: Delegate EditorAdv role"
+    <permission name="Sharing page: Delegate roles"
                 acquire="False">
       <role name="LocalManager"/>
       <role name="Manager"/>
-	  <role name="Site Administrator"/>
+      <role name="Site Administrator"/>
     </permission>
-	<permission name="Sharing page: Delegate LocalManager role"
+    <permission name="Sharing page: Delegate EditorAdv role"
                 acquire="False">
-	  <role name="Manager"/>
-	  <role name="Site Administrator"/>
+      <role name="LocalManager"/>
+      <role name="Manager"/>
+      <role name="Site Administrator"/>
     </permission>
-	<permission name="Sharing page: Delegate Contributor role"
+    <permission name="Sharing page: Delegate LocalManager role"
                 acquire="False">
-	  <role name="Manager"/>
-	  <role name="LocalManager"/>
-	  <role name="Site Administrator"/>
+      <role name="Manager"/>
+      <role name="Site Administrator"/>
     </permission>
-	<permission name="Sharing page: Delegate Editor role"
+    <permission name="Sharing page: Delegate Contributor role"
                 acquire="False">
-	  <role name="Manager"/>
-	  <role name="LocalManager"/>
-	  <role name="Site Administrator"/>
+      <role name="Manager"/>
+      <role name="LocalManager"/>
+      <role name="Site Administrator"/>
     </permission>
-	<permission name="Sharing page: Delegate Reader role"
+    <permission name="Sharing page: Delegate Editor role"
                 acquire="False">
-	  <role name="Manager"/>
-	  <role name="LocalManager"/>
-	  <role name="Site Administrator"/>
-    </permission>	
-	<permission name="Sharing page: Delegate Reviewer role"
-                acquire="False">
-	  <role name="Manager"/>
-	  <role name="LocalManager"/>
-	  <role name="Site Administrator"/>
+      <role name="Manager"/>
+      <role name="LocalManager"/>
+      <role name="Site Administrator"/>
     </permission>
-	<permission name="Sharing page: Delegate Active User role"
+    <permission name="Sharing page: Delegate Reader role"
                 acquire="False">
-	  <role name="Manager"/>
-	  <role name="Site Administrator"/>
+      <role name="Manager"/>
+      <role name="LocalManager"/>
+      <role name="Site Administrator"/>
+    </permission>    
+    <permission name="Sharing page: Delegate Reviewer role"
+                acquire="False">
+      <role name="Manager"/>
+      <role name="LocalManager"/>
+      <role name="Site Administrator"/>
+    </permission>
+    <permission name="Sharing page: Delegate Active User role"
+                acquire="False">
+      <role name="Manager"/>
+      <role name="Site Administrator"/>
     </permission>
   </permissions>
 </rolemap>
