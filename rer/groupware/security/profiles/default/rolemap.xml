@@ -54,6 +54,7 @@
       <role name="Manager"/>
       <role name="Site Administrator"/>
       <role name="LocalManager"/>
+      <role name="Contributor"/>
       <role name="Active User"/>
     </permission>
     

@@ -4,7 +4,7 @@ Changelog
 2.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fixed reply to item roles. added "Contributor" [andrea]
 
 
 2.0.0 (2013-06-24)
