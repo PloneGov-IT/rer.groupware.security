@@ -164,6 +164,7 @@
                 acquire="False">
       <role name="Manager"/>
       <role name="Site Administrator"/>
+      <role name="LocalManager" />
     </permission>
   </permissions>
 </rolemap>
