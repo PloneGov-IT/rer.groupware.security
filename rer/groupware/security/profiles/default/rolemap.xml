@@ -1,27 +1,6 @@
 <?xml version="1.0"?>
 <rolemap>
   <permissions>
-      <permission name="ATContentTypes: Add Folder"
-                acquire="False">
-      <role name="EditorAdv"/>
-      <role name="Manager"/>
-      <role name="Site Administrator"/>
-    </permission>
-
-      <permission name="Add portal topics"
-                acquire="False">
-      <role name="EditorAdv"/>
-      <role name="Manager"/>
-      <role name="Site Administrator"/>
-    </permission>
-
-    <permission name="Change portal topics"
-                acquire="False">
-      <role name="EditorAdv"/>
-      <role name="Manager"/>
-      <role name="Site Administrator"/>
-    </permission>
-
     <permission name="Portlet Page: Add Portlet Page"
                 acquire="False">
       <role name="EditorAdv"/>
@@ -164,7 +143,7 @@
                 acquire="False">
       <role name="Manager"/>
       <role name="Site Administrator"/>
-      <role name="LocalManager" />
+      <role name="LocalManager"/>
     </permission>
   </permissions>
 </rolemap>

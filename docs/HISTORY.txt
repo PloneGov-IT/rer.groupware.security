@@ -6,6 +6,7 @@ Changelog
 
 - Fixed reply to item roles. added "Contributor" [andrea]
 - Fixed delegate active user roles. added "LocalManager" [andrea]
+- Removed Add Folder, Add Topic and Change portal topics roles. Moved to rer.groupware.room workflow [andrea]
 
 
 2.0.0 (2013-06-24)
