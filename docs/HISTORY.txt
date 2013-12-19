@@ -4,15 +4,15 @@ Changelog
 2.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix Ploneboard: Add Comment roles, so normal collaborators can't change forum status [cekk]
 
 
 2.1.0 (2013-11-05)
 ------------------
 
-- Fixed reply to item roles. added "Contributor" [andrea]
-- Fixed delegate active user roles. added "LocalManager" [andrea]
-- Removed Add Folder, Add Topic and Change portal topics roles. Moved to rer.groupware.room workflow [andrea]
+- Fixed reply to item roles. added "Contributor" [cekk]
+- Fixed delegate active user roles. added "LocalManager" [cekk]
+- Removed Add Folder, Add Topic and Change portal topics roles. Moved to rer.groupware.room workflow [cekk]
 
 
 2.0.0 (2013-06-24)
@@ -27,12 +27,12 @@ Upgrade to Plone 4
 1.0.2 (2012-02-06)
 ------------------
 
-* fixed ploneboard rolemap permissions [andrea]
+* fixed ploneboard rolemap permissions [cekk]
 
 1.0.1 (2011-12-19)
 ------------------
 
-* added employee role to eXtremeManagement: Add Project [andrea]
+* added employee role to eXtremeManagement: Add Project [cekk]
 
 1.0.0 (xxxx-xx-xx)
 ------------------

@@ -39,6 +39,14 @@
     
     <permission name="Ploneboard: Add Comment"
                 acquire="False">
+      <role name="EditorAdv"/>
+      <role name="LocalManager"/>
+      <role name="Manager"/>
+      <role name="Site Administrator"/>
+    </permission>
+    
+    <permission name="Ploneboard: Add Comment"
+                acquire="False">
       <role name="Manager"/>
       <role name="Site Administrator"/>
       <role name="LocalManager"/>
