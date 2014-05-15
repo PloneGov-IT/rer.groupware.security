@@ -1,0 +1,26 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="rer.groupware.security">
+
+  <genericsetup:registerProfile
+      name="to_1010"
+      title="rer.groupware.security: upgrade to 1010"
+      directory="profiles/to_1010"
+      description=""
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:upgradeStep
+        title="Upgrade to rer.groupware.security 2.1.2"
+        description="Migrates rer.groupware.security to 1010"
+        source="1000"
+        destination="1010"
+        handler=".setuphandlers.migrateTo1010"
+        sortkey="1"
+        profile="rer.groupware.security:default"
+    />
+
+</configure>

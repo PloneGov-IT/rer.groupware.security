@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rolemap>
+  <permissions>
+    <permission name="collective.filteredlocking: Can unlock objects"
+                acquire="False">
+      <role name="Manager"/>
+      <role name="Site Administrator"/>
+      <role name="Owner"/>
+      <role name="EditorAdv"/>
+    </permission>
+  </permissions>
+</rolemap>

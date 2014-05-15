@@ -20,6 +20,7 @@
         id="rer.groupware.security.DelegateActiveUserRole"
         title="Sharing page: Delegate Active User role"
         />
+
   <genericsetup:registerProfile
       name="default"
       title="RER Groupware: security"
@@ -27,5 +28,6 @@
       description=""
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
+  <include file="upgrades.zcml" />
 		
 </configure>
