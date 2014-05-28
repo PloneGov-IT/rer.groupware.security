@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.1.2 (unreleased)
+2.1.2 (2014-05-28)
 ------------------
 
 - Fix compatibility with changes from collective.filteredlocking 1.2 [keul]
