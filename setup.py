@@ -6,8 +6,8 @@ version = '2.1.3.dev0'
 setup(name='rer.groupware.security',
       version=version,
       description="rer.groupware.security",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+      long_description=open("README.rst").read() + "\n" +
+                       open(os.path.join("docs", "HISTORY.rst")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
         "Programming Language :: Python",
@@ -16,7 +16,7 @@ setup(name='rer.groupware.security',
       keywords='',
       author='RedTurtle Technology',
       author_email='sviluppoplone@redturtle.it',
-      url='',
+      url='https://github.com/PloneGov-IT/rer.groupware.security',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['rer', 'rer.groupware'],
@@ -27,9 +27,6 @@ setup(name='rer.groupware.security',
           'collective.autopermission',
           'redturtle.deletepolicy',
           'collective.filteredlocking',
-          #'Plone.Popoll',
-          #'Products.Ploneboard',
-          #'collective.portletpage',
       ],
       entry_points="""
       # -*- Entry points: -*-
