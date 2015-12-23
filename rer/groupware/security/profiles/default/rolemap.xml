@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <rolemap>
   <permissions>
+    <permission name="Manage Groups"
+                acquire="False">
+      <role name="Manager"/>
+      <role name="Site Administrator"/>
+    </permission>
+
     <permission name="Portlet Page: Add Portlet Page"
                 acquire="False">
       <role name="EditorAdv"/>
@@ -21,7 +27,7 @@
       <role name="Manager"/>
       <role name="Site Administrator"/>
     </permission>
-    
+
     <permission name="Popoll: Vote"
                 acquire="False">
       <role name="Manager"/>
@@ -29,7 +35,7 @@
       <role name="Active User"/>
       <role name="LocalManager"/>
     </permission>
-    
+
     <permission name="Reply to item"
                 acquire="True">
       <role name="Manager"/>
@@ -38,7 +44,7 @@
       <role name="Contributor"/>
       <role name="Active User"/>
     </permission>
-    
+
     <permission name="Ploneboard: Add Comment"
                 acquire="False">
       <role name="EditorAdv"/>
@@ -46,7 +52,7 @@
       <role name="Manager"/>
       <role name="Site Administrator"/>
     </permission>
-    
+
     <permission name="Ploneboard: Add Comment"
                 acquire="False">
       <role name="Manager"/>
@@ -55,7 +61,7 @@
       <role name="Reviewer"/>
       <role name="Active User"/>
     </permission>
-    
+
     <permission name="Ploneboard: Add Comment Attachment"
                 acquire="False">
       <role name="Manager"/>
@@ -64,7 +70,7 @@
       <role name="Reviewer"/>
       <role name="Active User"/>
     </permission>
-    
+
     <permission name="Ploneboard: Add Conversation"
                 acquire="False">
       <role name="Manager"/>
@@ -73,15 +79,15 @@
       <role name="Reviewer"/>
       <role name="Active User" />
     </permission>
-    
+
     <permission name="Ploneboard: Moderate Forum"
                 acquire="False">
       <role name="Manager"/>
       <role name="Site Administrator"/>
       <role name="LocalManager"/>
       <role name="EditorAdv"/>
-    </permission>    
-    
+    </permission>
+
     <permission name="Ploneboard: Manage Comment"
                 acquire="False">
       <role name="Manager"/>
@@ -89,15 +95,15 @@
       <role name="LocalManager"/>
       <role name="EditorAdv"/>
     </permission>
-    
+
     <permission name="Ploneboard: Manage Conversation"
                 acquire="False">
       <role name="Manager"/>
       <role name="Site Administrator"/>
       <role name="LocalManager"/>
       <role name="EditorAdv"/>
-    </permission>    
-    
+    </permission>
+
     <!--modifica per permettere agli owner di ritirare le pubblicazioni-->
     <permission name="Review portal content"
                 acquire="True">
@@ -142,7 +148,7 @@
       <role name="Manager"/>
       <role name="LocalManager"/>
       <role name="Site Administrator"/>
-    </permission>    
+    </permission>
     <permission name="Sharing page: Delegate Reviewer role"
                 acquire="False">
       <role name="Manager"/>

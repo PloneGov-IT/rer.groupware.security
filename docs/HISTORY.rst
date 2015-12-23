@@ -4,7 +4,7 @@ Changelog
 2.1.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- added Manage Groups in rolmap [keul]
 
 
 2.1.2 (2014-05-28)
