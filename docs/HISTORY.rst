@@ -1,11 +1,12 @@
 Changelog
 =========
 
-2.1.3 (unreleased)
+2.2.0 (unreleased)
 ------------------
 
-- added Manage Groups in rolmap [keul]
-
+- Add Manage Groups in rolmap [keul]
+- Add unistall profile
+  [cekk]
 
 2.1.2 (2014-05-28)
 ------------------

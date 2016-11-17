@@ -28,7 +28,14 @@
       description=""
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="RER Groupware: security uninstall"
+      directory="profiles/uninstall"
+      description=""
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
 
   <include file="upgrades.zcml" />
-		
+
 </configure>
