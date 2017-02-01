@@ -7,12 +7,12 @@
       <role name="Site Administrator"/>
     </permission>
 
-    <permission name="Portlet Page: Add Portlet Page"
+    <!-- <permission name="Portlet Page: Add Portlet Page"
                 acquire="False">
       <role name="EditorAdv"/>
       <role name="Manager"/>
       <role name="Site Administrator"/>
-    </permission>
+    </permission> -->
 
     <permission name="collective.filteredlocking: Can unlock objects"
                 acquire="False">
@@ -28,13 +28,13 @@
       <role name="Site Administrator"/>
     </permission>
 
-    <permission name="Popoll: Vote"
+    <!-- <permission name="Popoll: Vote"
                 acquire="False">
       <role name="Manager"/>
       <role name="Site Administrator"/>
       <role name="Active User"/>
       <role name="LocalManager"/>
-    </permission>
+    </permission> -->
 
     <permission name="Reply to item"
                 acquire="True">
@@ -45,7 +45,7 @@
       <role name="Active User"/>
     </permission>
 
-    <permission name="Ploneboard: Add Comment"
+    <!-- <permission name="Ploneboard: Add Comment"
                 acquire="False">
       <role name="EditorAdv"/>
       <role name="LocalManager"/>
@@ -102,7 +102,7 @@
       <role name="Site Administrator"/>
       <role name="LocalManager"/>
       <role name="EditorAdv"/>
-    </permission>
+    </permission> -->
 
     <!--modifica per permettere agli owner di ritirare le pubblicazioni-->
     <permission name="Review portal content"
