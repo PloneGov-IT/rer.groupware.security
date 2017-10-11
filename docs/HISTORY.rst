@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.2.0 (unreleased)
+3.0.0 (2017-10-11)
 ------------------
 
 - Add Manage Groups in rolmap [keul]
