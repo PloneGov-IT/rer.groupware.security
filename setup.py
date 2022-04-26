@@ -11,6 +11,9 @@ setup(name='rer.groupware.security',
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
         "Programming Language :: Python",
+        "Programming Language :: Python :: 3.8",
+        "Framework :: Plone",
+        "Framework :: Plone :: 5.2",
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
       keywords='',
@@ -24,7 +27,6 @@ setup(name='rer.groupware.security',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'collective.autopermission',
           'redturtle.deletepolicy',
           'collective.filteredlocking',
       ],

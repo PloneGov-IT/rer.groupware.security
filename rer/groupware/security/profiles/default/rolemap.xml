@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <rolemap>
+  
+  <roles>
+    <role name="LocalManager"/>
+    <role name="EditorAdv"/>
+    <role name="Active User"/>
+  </roles>
+
   <permissions>
     <permission name="Manage Groups"
                 acquire="False">
