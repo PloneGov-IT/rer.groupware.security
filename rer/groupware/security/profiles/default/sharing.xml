@@ -5,18 +5,21 @@
       id="LocalManager"
       title="Can manage"
       permission="Sharing page: Delegate LocalManager role"
-	  i18n:attributes="title"
+      i18n:attributes="title"
       />
+
   <role
       id="EditorAdv"
       title="Can edit (advanced)"
       permission="Sharing page: Delegate EditorAdv role"
-	  i18n:attributes="title"
+      i18n:attributes="title"
       />
+
   <role
       id="Active User"
       title="Can partake"
       permission="Sharing page: Delegate Active User role"
-	  i18n:attributes="title"
+      i18n:attributes="title"
       />
+
 </sharing>

@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '3.0.1.dev0'
+version = '4.0.0.dev0'
 
 setup(name='rer.groupware.security',
       version=version,
@@ -10,9 +10,17 @@ setup(name='rer.groupware.security',
                        open(os.path.join("docs", "HISTORY.rst")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
+        "Development Status :: 5 - Production/Stable",
+        "Environment :: Web Environment",
+        "Framework :: Plone",
+        "Framework :: Plone :: Addon",
+        "Framework :: Plone :: 5.2",
         "Programming Language :: Python",
-        "Topic :: Software Development :: Libraries :: Python Modules",
-        ],
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Operating System :: OS Independent",
+        "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+      ],      
       keywords='',
       author='RedTurtle Technology',
       author_email='sviluppoplone@redturtle.it',
@@ -24,7 +32,6 @@ setup(name='rer.groupware.security',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'collective.autopermission',
           'redturtle.deletepolicy',
           'collective.filteredlocking',
       ],
